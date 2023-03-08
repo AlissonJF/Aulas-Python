@@ -39,7 +39,7 @@ def removeItem():
         for i in range(len (lista)):
             print('Digite o valor: %s | Para remover o item: %s' % (i,lista[i]))
         print('')
-        item = input('Insira um item citado acima para removê-lo da lista: ')
+        item = input('Insira valor de um item citado acima para removê-lo da lista: ')
         if (item == 'sair'):
             print(lista)
             break
